@@ -1,0 +1,171 @@
+{
+    "intents": [
+  
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "What's up",
+          "How are you"
+        ],
+        "responses": [
+          "Hello! How can I help you today?",
+          "Hey there! What can I do for you?",
+          "Hi! Ask me anything."
+        ]
+      },
+  
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you",
+          "Good night",
+          "I am leaving",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you soon!",
+          "Take care!"
+        ]
+      },
+  
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Thanks a lot",
+          "That's helpful"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime!"
+        ]
+      },
+  
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather",
+          "How is the weather today",
+          "Is it raining",
+          "Is it hot today"
+        ],
+        "responses": [
+          "I can’t check the weather right now, but you can say 'weather in Pune'!",
+          "Try checking a weather app for exact info.",
+          "I am not connected to weather API yet."
+        ]
+      },
+  
+      {
+        "tag": "time",
+        "patterns": [
+          "What time is it",
+          "Tell me the time",
+          "Current time please"
+        ],
+        "responses": [
+          "I don’t have a clock, but your device does 😊",
+          "Check your phone or computer for the exact time.",
+          "Time flies, doesn't it?"
+        ]
+      },
+  
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name",
+          "Who are you",
+          "Your name please"
+        ],
+        "responses": [
+          "I am your chatbot assistant.",
+          "You can call me ChatBot Pro!",
+          "I'm an AI bot created to help you."
+        ]
+      },
+  
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "Give me a funny joke"
+        ],
+        "responses": [
+          "Why don’t robots panic? Because we have steel nerves!",
+          "Why was the computer cold? It forgot to close its Windows!",
+          "I tried to catch fog yesterday… I mist!"
+        ]
+      },
+  
+      {
+        "tag": "mood",
+        "patterns": [
+          "I am sad",
+          "I feel depressed",
+          "I am happy",
+          "I am excited"
+        ],
+        "responses": [
+          "I'm here for you. Want to talk about it?",
+          "That's great! What made you happy?",
+          "Your emotions matter. Share if you want ❤️"
+        ]
+      },
+  
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me",
+          "I need help",
+          "What can you do",
+          "How can you assist me"
+        ],
+        "responses": [
+          "I can chat, tell jokes, answer simple questions, and help you build your project!",
+          "Ask me anything — I'll try my best 😊"
+        ]
+      },
+  
+      {
+        "tag": "smalltalk",
+        "patterns": [
+          "What are you doing",
+          "Where are you from",
+          "Are you alive",
+          "Do you like humans"
+        ],
+        "responses": [
+          "I’m here, waiting to chat with you!",
+          "I live inside your computer 😄",
+          "I like humans… they created me!"
+        ]
+      },
+  
+      {
+        "tag": "error",
+        "patterns": [
+          "ajfghajgh",
+          "asdfgh",
+          "random text",
+          "??"
+        ],
+        "responses": [
+          "I’m not sure I understand. Could you rephrase?",
+          "Hmm, that doesn’t look like something I know.",
+          "Try asking something else!"
+        ]
+      }
+  
+    ]
+  }
+  
